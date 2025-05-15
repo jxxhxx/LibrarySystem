@@ -82,6 +82,7 @@ com.librarysystem.file
 <br>-해당 메서드 호출 시 명확한 제한 메시지 출력.
 
 ![image](https://github.com/user-attachments/assets/e6b0d191-1b0d-4b01-9d18-168cbd210642)
+
 -반복적으로 도서 등록/삭제 기능을 실행할 수 있게 메뉴 형태로 구성.
 0. 돌아가기 선택 시 도서 관리 메뉴에서 빠져나옴.
 
