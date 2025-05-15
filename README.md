@@ -15,6 +15,15 @@ IDE: eclipse
 운영 체제: Windows
 
 ## 주요 패키지 및 클래스 명
+com.librarysystem.main
+<br>-LibrarySystem.java
+
+com.librarysystem.user
+<br>-Admin.java
+<br>-Professor.java
+<br>-Student.java
+<br>-User.java
+
 com.librarysystem.book
 <br>-Book.java
 <br>-PrintedBook.java
@@ -26,15 +35,6 @@ com.librarysystem.book
 
 com.librarysystem.file
 <br>-FileManager.java
-
-com.librarysystem.main
-<br>-LibrarySystem.java
-
-com.librarysystem.user
-<br>-Admin.java
-<br>-Professor.java
-<br>-Student.java
-<br>-User.java
 
 # com.librarysystem.main 메인 실행 클래스
 ![image](https://github.com/user-attachments/assets/2680c2c5-1a21-4e3d-85c7-54a097254ef2)
@@ -60,8 +60,49 @@ com.librarysystem.user
 -관리자는 도서 추가/삭제 등 관리자만이 이용할 수 있는 도서 관리 기능 사용.
 <br>-일반 사용자(Student/Professor)는 접근 불가하며, 접근 시도 시 오류 메세지 출력.
 
+# com.librarysystem.user 
+![image](https://github.com/user-attachments/assets/53346bb3-8054-409b-ad91-9f913decf2f4)
 
+-관리자는 시스템에 등록된 모든 도서 목록을 조회 가능.
+<br>-viewBooks() 메서드를 통해 리스트에 있는 모든 Book 객체를 출력.
 
+![image](https://github.com/user-attachments/assets/8aac2bdc-ce78-423c-a7fe-d3dbf0321472)
 
+-manageBooks() 내의 메뉴에서 도서 제목과 저자명을 입력받아 새 도서를 생성하고 등록.
+<br>-PrintedBook 객체로 추가되며, 등록 성공 메시지를 출력
 
+![image](https://github.com/user-attachments/assets/33b32fc4-f0af-4ce1-af71-ed2391c5f9e3)
 
+-도서 제목을 입력받아 해당 도서를 제목 기준으로 검색 후 삭제.
+<br>-일치하는 도서가 없으면 BookNotFoundException 예외 발생.
+
+![image](https://github.com/user-attachments/assets/ec16d530-373d-4aa2-8641-4f10e8c5cd31)
+
+-관리자는 도서 대여, 반납, 연체 확인 기능 사용 불가.
+<br>-해당 메서드 호출 시 명확한 제한 메시지 출력.
+
+![image](https://github.com/user-attachments/assets/e6b0d191-1b0d-4b01-9d18-168cbd210642)
+-반복적으로 도서 등록/삭제 기능을 실행할 수 있게 메뉴 형태로 구성.
+0. 돌아가기 선택 시 도서 관리 메뉴에서 빠져나옴.
+
+# com.librarysystem.professor
+![image](https://github.com/user-attachments/assets/72993dbb-01d7-44eb-b9de-c327941b1c1a)
+
+-시스템에 등록된 모든 도서의 제목, 상태, 반납 기한 등 정보를 출력.
+<br>-교수는 관리자와 달리 도서 목록만 조회 가능.
+
+![image](https://github.com/user-attachments/assets/5bf3bb98-a8cd-4820-bb64-d8e96c2c7f07)
+
+-사용자가 입력한 제목을 가진 도서를 검색하여 대여 가능 여부를 확인 후 대여 처리.
+<br>-반납 기한은 14일로 설정되며, 대여 중인 도서 목록에 추가.
+
+![image](https://github.com/user-attachments/assets/6933ea25-9380-4e6a-a007-ee4e90567ecb)
+
+-교수의 borrowedBooks 목록에서 제목이 일치하는 도서를 찾아 반납 처리.
+<br>-반납 완료 후 해당 도서는 borrowedBooks 목록에서 제거.
+
+![image](https://github.com/user-attachments/assets/80a847aa-d495-4a20-a36a-3336e98db778)
+
+-borrowedBooks 중에서 반납 기한이 현재 날짜 이전인 도서를 확인하고, 연체된 도서 제목을 출력
+
+# com.librarysystem.main
