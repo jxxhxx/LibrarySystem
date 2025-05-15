@@ -47,7 +47,7 @@ com.librarysystem.user
 ![image](https://github.com/user-attachments/assets/ded1d9f3-a773-43e5-ac16-731b52f3a3e2)
 ![image](https://github.com/user-attachments/assets/6005ffd2-c238-4585-9269-52378e76ba61)
 
-프로그램 시작 시 파일(books.dat)에서 도서 목록으 불러오고, 없을 경우 기본 도서를 자동으로 등록
+프로그램 시작 시 파일(books.dat)에서 도서 목록을 불러오고, 없을 경우 기본 도서를 자동으로 등록
 종료 시 FileManager.saveBooks()를 통해 도서 목록을 파일에 저장
 
 ![image](https://github.com/user-attachments/assets/06d361d3-52a4-4c1f-8b23-5010866e330a)
