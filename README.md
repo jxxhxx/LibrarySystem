@@ -36,6 +36,11 @@ com.librarysystem.book
 com.librarysystem.file
 <br>-FileManager.java
 
+## UML 클래스 다이어그램
+
+![클래스 다이어 그램](https://github.com/user-attachments/assets/35fc58ea-2263-4bce-9c08-df6b4138b3b8)
+
+
 # com.librarysystem.main 메인 실행 클래스
 ![image](https://github.com/user-attachments/assets/2680c2c5-1a21-4e3d-85c7-54a097254ef2)
 
