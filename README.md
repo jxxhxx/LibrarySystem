@@ -172,13 +172,12 @@ com.librarysystem.exception
 
 ## com.librarysystem.exception
 ![image](https://github.com/user-attachments/assets/9e447912-cf2d-4121-b797-de754f910b03)
-
-<br>-BookNotFoundException.java 도서 검색이나 반납, 삭제 시 해당 도서를 찾지 못할 경우 발생하는 사용자 정의 예외 클래스
+<br>-BookNotFoundException.java: 도서 검색이나 반납, 삭제 시 해당 도서를 찾지 못할 경우 발생하는 사용자 정의 예외 클래스
 
 ![image](https://github.com/user-attachments/assets/2a3811b0-32c2-4de4-854c-bec29beb0084)
-<br>-OverdueBookException.java 도서의 반납 기한이 지났을 때 발생하는 사용자 정의 예외 클래스
+<br>-OverdueBookException.java: 도서의 반납 기한이 지났을 때 발생하는 사용자 정의 예외 클래스
 
 ![image](https://github.com/user-attachments/assets/cd1df991-b452-4770-9687-55787d038ff2)
-<br>-PermissionDeniedException.java 도서 대여/반납 등 사용자 행위에 대한 접근 권한이 없을 경우 발생하는 사용자 정의 예외
+<br>-PermissionDeniedException.java: 도서 대여/반납 등 사용자 행위에 대한 접근 권한이 없을 경우 발생하는 사용자 정의 예외
 
 
