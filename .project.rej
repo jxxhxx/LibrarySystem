@@ -1,0 +1,9 @@
+diff a/.project b/.project	(rejected hunks)
+@@ -1,6 +1,6 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <projectDescription>
+-	<name>LibrarySystem</name>
++	<name>2</name>
+ 	<comment></comment>
+ 	<projects>
+ 	</projects>
