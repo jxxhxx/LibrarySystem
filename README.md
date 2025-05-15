@@ -11,8 +11,8 @@
 
 ## 개발 환경
 언어: Java 21
-IDE: eclipse
-운영 체제: Windows
+<br>IDE: eclipse
+<br>운영 체제: Windows
 
 ## 주요 패키지 및 클래스 명
 com.librarysystem.main
