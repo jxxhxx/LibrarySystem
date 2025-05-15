@@ -54,9 +54,9 @@ com.librarysystem.user
 
 모든 사용자가 다음 기능을 사용할 수 있음.
 <br>1. 도서 목록 보기
-<br>-2. 도서 대여
-<br>-3. 도서 반납
-<br>-4. 연체 확인
+<br>2. 도서 대여
+<br>3. 도서 반납
+<br>4. 연체 확인
 
 ![image](https://github.com/user-attachments/assets/e55a6b81-b6b7-4923-b241-ac14e05797f1)
 
