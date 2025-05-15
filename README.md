@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/72af7425-334c-4825-b601-7f84db71779a)## Java mini-project 콘솔 기반 도서 대여 시스템
+## Java mini-project 콘솔 기반 도서 대여 시스템
 
 ## 프로젝트 소개
 도서 대여 및 반납할 수 있는 시스템을 구현한 프로젝트입니다.
